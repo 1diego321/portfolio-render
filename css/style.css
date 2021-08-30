@@ -1,0 +1,33 @@
+body{
+    font-family: 'Raleway', sans-serif !important;
+    background-color: #101010 !important;
+}
+
+#nombre{
+    color: #c7af8b;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.bg-black{
+    color: #fff;
+    background-color: #000;
+}
+
+#main-header .item{
+    width: 100%;
+}
+
+@media(min-width: 1199px){
+    .item{
+        padding: 4.6em !important;
+    }
+}
+
+@media(max-width: 680px){
+    #nombre{
+        color: #c7af8b;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+}
